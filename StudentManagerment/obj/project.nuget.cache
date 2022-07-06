@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "D33QSaqJtMq1cTyE9CpjKZ1JBqksKKrBJyyPZved0p0ZctbwGKEgOWbYL1lKf/lM3AIMLUKINg9TdlCjRTeyfg==",
+  "success": true,
+  "projectFilePath": "D:\\_项目\\_Git\\_dotnet-coreLearn\\StudentManagerment\\StudentManagerment.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在使用“http://114.118.13.252/nuget”\"http\" 源运行“restore”操作。未来的版本将删除对 \"http\" 源的支持。"
+    }
+  ]
+}
