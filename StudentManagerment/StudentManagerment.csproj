@@ -5,6 +5,11 @@
     <UserSecretsId>734b6426-ce83-49b2-b435-ce19dc62e17c</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\CSS\" />
+    <Folder Include="wwwroot\JS\" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
