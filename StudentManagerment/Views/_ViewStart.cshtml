@@ -1,0 +1,10 @@
+﻿@{
+    if (User.IsInRole("Admin"))//如果是管理员的角色则引入管理员的Layout
+    {                               
+        Layout = "_Layout";
+    }
+    else//否则引入其他的Layout
+    {
+        Layout = "_Layout";
+    }
+}

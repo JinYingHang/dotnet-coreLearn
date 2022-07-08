@@ -108,3 +108,7 @@ D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Raz
 D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Views\Home\_ViewStart.cshtml.g.cs
+D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout2.cshtml.g.cs
+D:\_项目\_Git\_dotnet-coreLearn\StudentManagerment\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
