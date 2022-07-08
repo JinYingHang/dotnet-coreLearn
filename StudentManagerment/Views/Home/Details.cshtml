@@ -1,0 +1,32 @@
+﻿@using StudentManagerment.Models
+@model StudentManagerment.ViewModels.HomeDetailsViewModel
+@{
+    Layout = @"/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "学生详情页面";
+}
+
+<h1>ViewData--@ViewData["pageTitle"]</h1>
+@{
+    var student = ViewData["Student"] as StudentModel;
+}
+<div>
+    姓名：@student.ClassName
+</div>
+
+<h1>ViewBag--@ViewBag.pageTitle</h1>
+<div>
+    姓名：@ViewBag.student.ClassName
+</div>
+
+
+@*<h1>Modle--@ViewBag.pageTitle</h1>
+<div>
+    姓名：@Model.ClassName
+</div>*@
+
+
+<h1>ViewBag--@Model.PageTitle</h1>
+<div>
+    姓名：@Model.Student.ClassName
+</div>
+
