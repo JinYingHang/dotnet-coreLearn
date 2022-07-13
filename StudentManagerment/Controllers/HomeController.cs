@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentManagerment.Models;
 using StudentManagerment.ViewModels;
+using System.Linq;
+
 namespace StudentManagerment.Controllers
 {
     public class HomeController : Controller
@@ -13,7 +15,7 @@ namespace StudentManagerment.Controllers
         }
         public IActionResult Index()
         {
-          
+            var ip = HttpContext.Request.Headers["X-Forwarded-For"].FirstOrDefault();
             var stuList = _IStudentRepository.GetAllStudents();
             var homeDetailsViewModel = new HomeDetailsViewModel()
             {
@@ -23,9 +25,11 @@ namespace StudentManagerment.Controllers
 
             return View(homeDetailsViewModel);
         }
-        public IActionResult Details()
+        public IActionResult Details(int? id)
         {
-            StudentModel studentModel = _IStudentRepository.GetStudentById(1);
+            if (id == null || (id > 4 && id < 0))
+                id = 3;
+            StudentModel studentModel = _IStudentRepository.GetStudentById(id);
 
             //弱类型视图
             ViewData["pageTitle"] = "Student Details";

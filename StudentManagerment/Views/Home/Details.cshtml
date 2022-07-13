@@ -1,11 +1,32 @@
 ﻿
 @model HomeDetailsViewModel
 @{
-    Layout =null;
     ViewBag.Title = "学生详情页面";
 }
 
-<h1>ViewData--@ViewData["pageTitle"]</h1>
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.Student.Name</h1>
+            </div>
+            <img class="card-img-top"   src="~/IMG/@Model.Student.imgSrc" />
+            <div  class="card-body text-center" >
+                <h4>学生ID @Model.Student.id</h4>
+                <h4>班级名称： @Model.Student.ClassName</h4>
+                <h4>邮箱 @Model.Student.Email</h4>
+            </div>
+            <div class="card-footer text-center">
+                <a href=../../Home/Index class="btn btn-primary">返回</a>
+                <a href=../../Home/Index class="btn btn-primary">编辑</a>
+                <a href=../../Home/Index class="btn btn-danger">删除</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*<h1>ViewData--@ViewData["pageTitle"]</h1>
 @{
     var student = ViewData["Student"] as StudentModel;
 }
@@ -17,7 +38,7 @@
 <div>
     姓名：@ViewBag.student.ClassName
 </div>
-
+*@
 
 @*<h1>Modle--@ViewBag.pageTitle</h1>
 <div>
@@ -25,8 +46,8 @@
 </div>*@
 
 
-<h1>ViewBag--@Model.PageTitle</h1>
+@*<h1>ViewBag--@Model.PageTitle</h1>
 <div>
     姓名：@Model.Student.ClassName
 </div>
-
+*@
