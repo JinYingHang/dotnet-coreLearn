@@ -6069,34 +6069,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\22143\\.nuget\\packages\\": {},
-    "D:\\VS2022\\共享组件、sdk、工具\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "D:\\vs2022_Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_项目\\_Git\\_dotnet-coreLearn\\StudentManagerment\\StudentManagerment.csproj",
+      "projectUniqueName": "D:\\_这杯酒叫蒹葭\\dotnet-coreLearn\\StudentManagerment\\StudentManagerment.csproj",
       "projectName": "StudentManagerment",
-      "projectPath": "D:\\_项目\\_Git\\_dotnet-coreLearn\\StudentManagerment\\StudentManagerment.csproj",
-      "packagesPath": "C:\\Users\\22143\\.nuget\\packages\\",
-      "outputPath": "D:\\_项目\\_Git\\_dotnet-coreLearn\\StudentManagerment\\obj\\",
+      "projectPath": "D:\\_这杯酒叫蒹葭\\dotnet-coreLearn\\StudentManagerment\\StudentManagerment.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\_这杯酒叫蒹葭\\dotnet-coreLearn\\StudentManagerment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VS2022\\共享组件、sdk、工具\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "D:\\vs2022_Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\22143\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "http://114.118.13.252/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6139,16 +6139,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "正在使用“http://114.118.13.252/nuget”\"http\" 源运行“restore”操作。未来的版本将删除对 \"http\" 源的支持。"
-    }
-  ]
+  }
 }
