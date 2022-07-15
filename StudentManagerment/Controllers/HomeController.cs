@@ -15,7 +15,6 @@ namespace StudentManagerment.Controllers
         }
         public IActionResult Index()
         {
-            var ip = HttpContext.Request.Headers["X-Forwarded-For"].FirstOrDefault();
             var stuList = _IStudentRepository.GetAllStudents();
             var homeDetailsViewModel = new HomeDetailsViewModel()
             {
